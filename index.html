@@ -19,10 +19,17 @@
 
             <!-- ver bien listado sin puntitos uso de ul u ol -->
         <ul class="navmenu">
-            <li><a href="#">home</a></li> 
-            <li><a href="#">shop</a></li>
-            <li><a href="#">outlet</a></li>
-            <li><a href="#">contacto</a></li>
+            <li><a class="active" href="index.html">home</a></li> 
+            <li><a href="shop.html">shop</a>
+            <ul class="menu-vertical">
+                <li><a href="#">Hombre</a></li>
+                <li><a href="#">Mujer</a></li>
+                <li><a href="#">Niños</a></li>
+            </ul>
+        </li>
+
+            <li><a href="outlet.html">outlet</a></li>
+            <li><a href="contacto.html">contacto</a></li>
            
 
             <div class="navicon">
@@ -39,23 +46,20 @@
         
     </header>
 
-    <section class="main-menu">
+    <section id="menu-principal" class="main-menu">
         <div class="main-text">
            
             <h1>Nuestra colección<br>de verano 2023</h1>
-            <a href="#" class="main-btn">Quiero!<i class='bx bx-right-arrow-alt'></i></a> 
+            <a href="nueva.coleccion.html" class="main-btn">Quiero!<i class='bx bx-right-arrow-alt'></i></a> 
+
         </div>
           
-           
-       
+      
 
-        <div class="down-arrow">
-            <a href="trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
-        </div>
     </section>
 
     <!-- trending products section -->
-    <section class="trending-products" id="trending">
+    <section id="trending" class="trending-products" >
         <div class="center-text">
             <h2>Productos <span>tendencia</span></h2>
         </div>
@@ -336,7 +340,7 @@
     <section class="contact">
         <div class="contact-info">
             <div class="first-info">
-                <!--<img src="recursos/logo-arivaci1.png" alt="">-->
+                <img class="img-mediana" src="recursos/logo-arivaci1.png" alt="">
 
                 <div class="social-icon">
                     <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -349,7 +353,7 @@
             <div class="second-info">
                 <h4>Soporte</h4>
                 <p>Contacto</p>
-                <p>Sobre la pagina</p>
+                <p>Preguntas frecuentes</p>
                 <p>Privacidad</p>
             </div>
 
